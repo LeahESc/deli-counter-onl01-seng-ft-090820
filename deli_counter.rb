@@ -3,7 +3,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.size >= 1 
     current_line = []
-    
     katz_deli.each_with_index do |name, index|
     current_line << "#{index+1}. #{name}"
   end
@@ -11,5 +10,5 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, person)
     
