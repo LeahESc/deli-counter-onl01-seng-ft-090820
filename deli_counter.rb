@@ -14,7 +14,7 @@ end
 
 
 def take_a_number(katz_deli, new_customers)
-  binding.pry
+  #binding.pry
     if katz_deli.size == 0 
       katz_deli.push(new_customers)
       puts "Welcome, #{new_customers}. You are number #{katz_deli.length} in line."
