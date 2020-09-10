@@ -11,9 +11,14 @@ end
 end
 
 def take_a_number(katz_deli, new_customers)
+    if katz_deli.size == 0 
+      katz_deli.push(new_customers)
+    elsif katz_deli.size > 0
+      katz_deli.insert(-1, new_customers)
     katz_deli.each_with_index do |name, index|
     puts"Welcome, #{name}. You are number #{index+1} in line."
     end
+  end
 end
 
     
