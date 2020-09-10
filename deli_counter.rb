@@ -11,4 +11,6 @@ end
 end
 
 def take_a_number(katz_deli, person)
+  katz_deli.each_with_index do |name, index|
+    puts "Welcome, #{name"
     
