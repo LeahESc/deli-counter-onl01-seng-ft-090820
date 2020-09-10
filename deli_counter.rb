@@ -10,7 +10,7 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, "new_customers")
   if katz_deli.size >= 1
     new_customers = []
     katz_deli.each_with_index do |name, index|
