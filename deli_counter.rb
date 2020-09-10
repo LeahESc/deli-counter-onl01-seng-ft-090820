@@ -1,3 +1,5 @@
+require "pry"
+
 def line(katz_deli)
   if katz_deli.size == 0 
     puts "The line is currently empty."
@@ -10,7 +12,9 @@ def line(katz_deli)
 end
 end
 
+
 def take_a_number(katz_deli, new_customers)
+  binding.pry
     if katz_deli.size == 0 
       katz_deli.push(new_customers)
     elsif katz_deli.size > 0
