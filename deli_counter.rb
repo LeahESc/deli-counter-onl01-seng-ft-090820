@@ -11,7 +11,8 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.size >= 1 
+  if katz_deli.size >= 1
+    new_customers = []
     katz_deli.each_with_index do |name, index|
     puts"Welcome, #{name}. You are number #{index+1} in line."
     end
