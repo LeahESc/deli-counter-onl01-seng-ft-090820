@@ -4,9 +4,9 @@ def line(katz_deli)
   elsif katz_deli.size >= 1 
     current_line = []
     katz_deli.each_with_index do |index , name|
-    current_line << #{index+1} #{name}
+    current_line << index+1,  name
+    end
     puts "The line is currently:" current_line.join("  ")
-  end
   end
 end
     
