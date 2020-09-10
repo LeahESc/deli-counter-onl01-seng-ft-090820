@@ -11,8 +11,8 @@ end
 end
 
 def take_a_number(katz_deli, person)
-  katz_deli.each_with_index do |name, index|
-    puts "Welcome, #{name}. You are number #{index+1} in line."
+  katz_deli.each_with_index do |person, index|
+    puts "Welcome, #{person}. You are number #{index+1} in line."
   end
 end
     
