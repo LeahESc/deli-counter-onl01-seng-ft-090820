@@ -19,5 +19,8 @@ def take_a_number(katz_deli, new_customers)
     puts"Welcome, #{new_customers}. You are number #{katz_deli.length} in line."
 end
 
-    
+def now_serving(katz_deli)
+  if katz_deli.length == 0 
+    puts "Line is empty."
+  elsif katz_deli.length > 0 
     
